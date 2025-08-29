@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 61,
+      "name": "Diwali Kesar Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Diwali Kesar Peda.",
+      "price": 220,
+      "image": "/images/seasonal_&_festival_special_pedas/diwali_kesar_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 62,
+      "name": "Holi Gulal Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Holi Gulal Peda.",
+      "price": 240,
+      "image": "/images/seasonal_&_festival_special_pedas/holi_gulal_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 63,
+      "name": "Janmashtami Malai Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Janmashtami Malai Peda.",
+      "price": 260,
+      "image": "/images/seasonal_&_festival_special_pedas/janmashtami_malai_peda.jpg",
+      "availability": true
+    },
+    {
+      "id": 64,
+      "name": "Raksha Bandhan Pista Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Raksha Bandhan Pista Peda.",
+      "price": 280,
+      "image": "/images/seasonal_&_festival_special_pedas/raksha_bandhan_pista_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 65,
+      "name": "Ganesh Chaturthi Modak Style Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Ganesh Chaturthi Modak Style Peda.",
+      "price": 300,
+      "image": "/images/seasonal_&_festival_special_pedas/ganesh_chaturthi_modak_style_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 66,
+      "name": "Christmas Choco Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Christmas Choco Peda.",
+      "price": 320,
+      "image": "/images/seasonal_&_festival_special_pedas/christmas_choco_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 67,
+      "name": "Eid Kaju Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Eid Kaju Peda.",
+      "price": 340,
+      "image": "/images/seasonal_&_festival_special_pedas/eid_kaju_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 68,
+      "name": "New Year Special Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - New Year Special Peda.",
+      "price": 360,
+      "image": "/images/seasonal_&_festival_special_pedas/new_year_special_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 69,
+      "name": "Karwa Chauth Rose Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Karwa Chauth Rose Peda.",
+      "price": 380,
+      "image": "/images/seasonal_&_festival_special_pedas/karwa_chauth_rose_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 70,
+      "name": "Spring Mango Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Spring Mango Peda.",
+      "price": 200,
+      "image": "/images/seasonal_&_festival_special_pedas/spring_mango_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 71,
+      "name": "Summer Coconut Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Summer Coconut Peda.",
+      "price": 220,
+      "image": "/images/seasonal_&_festival_special_pedas/summer_coconut_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 72,
+      "name": "Winter Kesar Almond Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Winter Kesar Almond Peda.",
+      "price": 240,
+      "image": "/images/seasonal_&_festival_special_pedas/winter_kesar_almond_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 73,
+      "name": "Navratri Elaichi Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Navratri Elaichi Peda.",
+      "price": 260,
+      "image": "/images/seasonal_&_festival_special_pedas/navratri_elaichi_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 74,
+      "name": "Diwali Dry Fruit Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Diwali Dry Fruit Peda.",
+      "price": 280,
+      "image": "/images/seasonal_&_festival_special_pedas/diwali_dry_fruit_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 75,
+      "name": "Holi Chocolate Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Holi Chocolate Peda.",
+      "price": 300,
+      "image": "/images/seasonal_&_festival_special_pedas/holi_chocolate_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 76,
+      "name": "Janmashtami Nut Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Janmashtami Nut Peda.",
+      "price": 320,
+      "image": "/images/seasonal_&_festival_special_pedas/janmashtami_nut_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 77,
+      "name": "Christmas Berry Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Christmas Berry Peda.",
+      "price": 340,
+      "image": "/images/seasonal_&_festival_special_pedas/christmas_berry_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 78,
+      "name": "Eid Pista Delight",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Eid Pista Delight.",
+      "price": 360,
+      "image": "/images/seasonal_&_festival_special_pedas/eid_pista_delight.jpeg",
+      "availability": true
+    },
+    {
+      "id": 79,
+      "name": "New Year Special Vanilla Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - New Year Special Vanilla Peda.",
+      "price": 380,
+      "image": "/images/seasonal_&_festival_special_pedas/new_year_special_vanilla_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 80,
+      "name": "Festival Mix Peda",
+      "category": "Seasonal & Festival Special Pedas",
+      "description": "Delicious seasonal & festival special pedas - Festival Mix Peda.",
+      "price": 200,
+      "image": "/images/seasonal_&_festival_special_pedas/festival_mix_peda.jpeg",
+      "availability": true
+    }
+  ]
+}

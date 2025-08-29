@@ -3,7 +3,7 @@
 import logo from "../assets/logo.jpg";
 const Header = () => {
   return (
-    <div className="px-3 py-2 text-bg-dark border-bottom iconMargin">
+    <div className="px-3 py-2 text-bg-dark border-bottom fixed top-0 left-0 w-full z-50 shadow-md header">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           {/* Logo / Brand */}
