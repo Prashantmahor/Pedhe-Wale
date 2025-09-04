@@ -3,7 +3,7 @@ import { BsInstagram, BsFacebook } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <footer className="py-5 footergap bg-light">
+      <footer className="py-5 footergap bg-light ">
         <div className="row">
           {/* Categories */}
           <div className="col-6 col-md-2 mb-3">
@@ -37,7 +37,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Our Shop */}
+          {/* Our Shop
           <div className="col-6 col-md-2 mb-3">
             <h5>Our Shop</h5>
             <ul className="nav flex-column">
@@ -67,7 +67,8 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
+         
 
           {/* Support */}
           <div className="col-6 col-md-2 mb-3">
@@ -101,26 +102,25 @@ const Footer = () => {
             </ul>
           </div>
 
+           <div className="col-6 col-md-2 mb-3">
+              <h5 className="font-medium mb-2">Contact</h5>
+              <p className="text-sm text-gray-600">Mathura, India</p>
+              <p className="text-sm text-gray-600">+91 6398783975</p>
+              <p className="text-sm text-gray-600">+91 97203 86529</p>
+            </div>
+
           {/* Newsletter */}
           <div className="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Subscribe to Sweet Updates</h5>
-              <p>Get latest offers, festive specials, and new peda launches.</p>
-              <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label htmlFor="newsletter1" className="visually-hidden">
-                  Email address
-                </label>
-                <input
-                  id="newsletter1"
-                  type="email"
-                  className="form-control"
-                  placeholder="Email address"
-                />
-                <button className="btn btn-warning" type="button">
-                  Subscribe
-                </button>
-              </div>
-            </form>
+            <aside className="border rounded-lg p-3">
+            <h4 className="font-semibold mb-3">About Us</h4>
+            <p className="text-sm text-gray-600 mb-4">Hum Mathura ke traditional pedhe banate hain jo har festival ko khaas bana dete hain.</p>
+
+            <div className="mb-4">
+              <label className="block text-sm mb-1">Enter your email</label>
+              <input type="email" className="w-full border rounded px-3 py-2 text-sm" placeholder="you@example.com" />
+            </div>
+            <button className="btn btn-warning w-full px-4 py-2 border rounded" type="button">Subscribe</button>
+          </aside>
           </div>
         </div>
 

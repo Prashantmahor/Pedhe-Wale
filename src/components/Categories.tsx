@@ -1,29 +1,28 @@
 interface CategoriesProps {
-  selectedTab: string;
-  setSelectedTab: (tab: string) => void;
+  selectedCategory: string;
+  setSelectedCategory: (category: string) => void;
 }
-const Categories = ({selectedTab,setSelectedTab }: CategoriesProps) => {
-
+const Categories = ({selectedCategory,setSelectedCategory }: CategoriesProps) => {
 
   return (
     <>
     <div className="d-flex flex-column flex-shrink-0  text-bg-dark sidebar sticky  h-screen overflow-y-auto bg-gray-900 text-white p-4" style={{ width: "280px" }} > <a className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"> <svg className="bi pe-none me-2" width="40" height="32" aria-hidden="true"><use xlinkHref="#bootstrap"></use></svg> <span className="fs-4">Categories</span> </a> <hr /> <ul className="nav nav-pills flex-column mb-auto">
       <li className="nav-item"> 
-      <a className={`nav-link text-white ${selectedTab==='Classic Pedas' && 'active'}`} onClick={() => setSelectedTab('Classic Pedas')} >
+      <a className={`nav-link text-white ${selectedCategory==='Classic Pedas' && 'active'}`} onClick={() => setSelectedCategory('Classic Pedas')} >
 Classic Pedas
-</a> </li> <li> <a  className={`nav-link text-white ${selectedTab==="Nutty & Dry Fruit Pedas" && "active"}`} onClick={() => setSelectedTab('Nutty & Dry Fruit Pedas')} >
+</a> </li> <li> <a  className={`nav-link text-white ${selectedCategory==="Nutty & Dry Fruit Pedas" && "active"}`} onClick={() => setSelectedCategory('Nutty & Dry Fruit Pedas')} >
 Nutty & Dry Fruit Pedas
-</a> </li> <li> <a className={`nav-link text-white ${selectedTab==="Modern Fusion Pedas" && "active"}`} onClick={() => setSelectedTab('Modern Fusion Pedas')} >
+</a> </li> <li> <a className={`nav-link text-white ${selectedCategory==="Modern Fusion Pedas" && "active"}`} onClick={() => setSelectedCategory('Modern Fusion Pedas')} >
 Modern Fusion Pedas
-</a> </li> <li> <a className={`nav-link text-white ${selectedTab==="Seasonal Pedas" && "active"}`} onClick={() => setSelectedTab('Seasonal Pedas')} >
+</a> </li> <li> <a className={`nav-link text-white ${selectedCategory==="Seasonal Pedas" && "active"}`} onClick={() => setSelectedCategory('Seasonal Pedas')} >
 Festival Special Pedas
-</a> </li> <li> <a  className={`nav-link text-white ${selectedTab==="Healthy Pedas" && "active"}`} onClick={() => setSelectedTab('Healthy Pedas')} >
+</a> </li> <li> <a  className={`nav-link text-white ${selectedCategory==="Healthy Pedas" && "active"}`} onClick={() => setSelectedCategory('Healthy Pedas')} >
 Health-Conscious Pedas
 </a> </li>
-<li> <a  className={`nav-link text-white ${selectedTab==="Fruit Pedas" && "active"}`} onClick={() => setSelectedTab('Fruit Pedas')} >
+<li> <a  className={`nav-link text-white ${selectedCategory==="Fruit Pedas" && "active"}`} onClick={() => setSelectedCategory('Fruit Pedas')} >
 Fruit-Based Pedas
 </a> </li>
-<li> <a className={`nav-link text-white ${selectedTab==="Exotic Pedas" && "active"}`} onClick={() => setSelectedTab('Exotic Pedas')} > Exotic & Gourmet Pedas
+<li> <a className={`nav-link text-white ${selectedCategory==="Exotic Pedas" && "active"}`} onClick={() => setSelectedCategory('Exotic Pedas')} > Exotic & Gourmet Pedas
 </a> </li>
  </ul> <hr />
 

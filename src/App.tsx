@@ -7,8 +7,8 @@ import { useState } from "react";
 import Products from "./components/Products";
 
 function App() {
-  const [selectedTab, setSelectedTab] = useState("Home");
-
+  const [selectedTab, _setSelectedTab] = useState("Home");
+  const [selectedCategory, setSelectedCategory] = useState("Classic Pedas");
   const renderContent = () => {
     if (selectedTab === "Home") {
       return <Home />;
@@ -22,7 +22,8 @@ function App() {
     <div className="app-container">
       <Header />
       <div className="content d-flex">
-        <Categories selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
+        <Categories selectedCategory={selectedCategory} 
+        setSelectedCategory={setSelectedCategory}  />
         <div className="main-content flex-grow-1 p-3">
           {renderContent()}
         </div>
