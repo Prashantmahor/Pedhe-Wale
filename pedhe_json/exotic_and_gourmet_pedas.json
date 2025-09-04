@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 121,
+      "name": "Saffron Pistachio Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Saffron Pistachio Peda.",
+      "price": 220,
+      "image": "/images/exotic_&_gourmet_pedas/saffron_pistachio_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 122,
+      "name": "Rose Gold Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Rose Gold Peda.",
+      "price": 240,
+      "image": "/images/exotic_&_gourmet_pedas/rose_gold_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 123,
+      "name": "Silver Leaf Kesar Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Silver Leaf Kesar Peda.",
+      "price": 260,
+      "image": "/images/exotic_&_gourmet_pedas/silver_leaf_kesar_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 124,
+      "name": "Chocolate Hazelnut Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Chocolate Hazelnut Peda.",
+      "price": 280,
+      "image": "/images/exotic_&_gourmet_pedas/chocolate_hazelnut_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 125,
+      "name": "Coffee Walnut Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Coffee Walnut Peda.",
+      "price": 300,
+      "image": "/images/exotic_&_gourmet_pedas/coffee_walnut_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 126,
+      "name": "Blueberry Cheesecake Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Blueberry Cheesecake Peda.",
+      "price": 320,
+      "image": "/images/exotic_&_gourmet_pedas/blueberry_cheesecake_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 127,
+      "name": "Almond Saffron Delight",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Almond Saffron Delight.",
+      "price": 340,
+      "image": "/images/exotic_&_gourmet_pedas/almond_saffron_delight.jpeg",
+      "availability": true
+    },
+    {
+      "id": 128,
+      "name": "Gourmet Cashew Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Gourmet Cashew Peda.",
+      "price": 360,
+      "image": "/images/exotic_&_gourmet_pedas/gourmet_cashew_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 129,
+      "name": "Luxury Rose Almond Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Luxury Rose Almond Peda.",
+      "price": 380,
+      "image": "/images/exotic_&_gourmet_pedas/luxury_rose_almond_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 130,
+      "name": "Exotic Berry Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Exotic Berry Peda.",
+      "price": 200,
+      "image": "/images/exotic_&_gourmet_pedas/exotic_berry_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 131,
+      "name": "Caramel Crunch Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Caramel Crunch Peda.",
+      "price": 220,
+      "image": "/images/exotic_&_gourmet_pedas/caramel_crunch_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 132,
+      "name": "Butterscotch Almond Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Butterscotch Almond Peda.",
+      "price": 240,
+      "image": "/images/exotic_&_gourmet_pedas/butterscotch_almond_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 133,
+      "name": "Tropical Fruit Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Tropical Fruit Peda.",
+      "price": 260,
+      "image": "/images/exotic_&_gourmet_pedas/tropical_fruit_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 134,
+      "name": "Honey Nut Supreme Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Honey Nut Supreme Peda.",
+      "price": 280,
+      "image": "/images/exotic_&_gourmet_pedas/honey_nut_supreme_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 135,
+      "name": "Premium Dry Fruit Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Premium Dry Fruit Peda.",
+      "price": 300,
+      "image": "/images/exotic_&_gourmet_pedas/premium_dry_fruit_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 136,
+      "name": "Golden Delight Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Golden Delight Peda.",
+      "price": 320,
+      "image": "/images/exotic_&_gourmet_pedas/golden_delight_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 137,
+      "name": "Choco Mint Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Choco Mint Peda.",
+      "price": 340,
+      "image": "/images/exotic_&_gourmet_pedas/choco_mint_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 138,
+      "name": "Luxury Fusion Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Luxury Fusion Peda.",
+      "price": 360,
+      "image": "/images/exotic_&_gourmet_pedas/luxury_fusion_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 139,
+      "name": "Kesar Royal Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Kesar Royal Peda.",
+      "price": 380,
+      "image": "/images/exotic_&_gourmet_pedas/kesar_royal_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 140,
+      "name": "Exotic Mix Peda",
+      "category": "Exotic & Gourmet Pedas",
+      "description": "Delicious exotic & gourmet pedas - Exotic Mix Peda.",
+      "price": 200,
+      "image": "/images/exotic_&_gourmet_pedas/exotic_mix_peda.jpeg",
+      "availability": true
+    }
+  ]
+}

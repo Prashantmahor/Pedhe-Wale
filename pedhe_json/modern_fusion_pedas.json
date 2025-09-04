@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": 41,
+      "name": "Chocolate Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Chocolate Peda.",
+      "price": 220,
+      "image": "/images/modern_fusion_pedas/chocolate_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 42,
+      "name": "Chocolate Kesar Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Chocolate Kesar Peda.",
+      "price": 240,
+      "image": "/images/modern_fusion_pedas/chocolate_kesar_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 43,
+      "name": "Coffee Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Coffee Peda.",
+      "price": 260,
+      "image": "/images/modern_fusion_pedas/coffee_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 44,
+      "name": "Strawberry Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Strawberry Peda.",
+      "price": 280,
+      "image": "/images/modern_fusion_pedas/strawberry_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 45,
+      "name": "Mango Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Mango Peda.",
+      "price": 300,
+      "image": "/images/modern_fusion_pedas/mango_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 46,
+      "name": "Blueberry Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Blueberry Peda.",
+      "price": 320,
+      "image": "/images/modern_fusion_pedas/blueberry_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 47,
+      "name": "Pineapple Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Pineapple Peda.",
+      "price": 340,
+      "image": "/images/modern_fusion_pedas/pineapple_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 48,
+      "name": "Rose Chocolate Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Rose Chocolate Peda.",
+      "price": 360,
+      "image": "/images/modern_fusion_pedas/rose_chocolate_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 49,
+      "name": "Nutella Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Nutella Peda.",
+      "price": 380,
+      "image": "/images/modern_fusion_pedas/nutella_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 50,
+      "name": "Butterscotch Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Butterscotch Peda.",
+      "price": 200,
+      "image": "/images/modern_fusion_pedas/butterscotch_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 51,
+      "name": "Caramel Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Caramel Peda.",
+      "price": 220,
+      "image": "/images/modern_fusion_pedas/caramel_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 52,
+      "name": "Vanilla Almond Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Vanilla Almond Peda.",
+      "price": 240,
+      "image": "/images/modern_fusion_pedas/vanilla_almond_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 53,
+      "name": "Coconut Chocolate Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Coconut Chocolate Peda.",
+      "price": 260,
+      "image": "/images/modern_fusion_pedas/coconut_chocolate_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 54,
+      "name": "Mocha Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Mocha Peda.",
+      "price": 280,
+      "image": "/images/modern_fusion_pedas/mocha_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 55,
+      "name": "Choco-Pista Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Choco-Pista Peda.",
+      "price": 300,
+      "image": "/images/modern_fusion_pedas/choco-pista_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 56,
+      "name": "Lemon Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Lemon Peda.",
+      "price": 320,
+      "image": "/images/modern_fusion_pedas/lemon_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 57,
+      "name": "Oreo Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Oreo Peda.",
+      "price": 340,
+      "image": "/images/modern_fusion_pedas/oreo_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 58,
+      "name": "Choco-Cashew Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Choco-Cashew Peda.",
+      "price": 360,
+      "image": "/images/modern_fusion_pedas/choco-cashew_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 59,
+      "name": "Berry Mix Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Berry Mix Peda.",
+      "price": 380,
+      "image": "/images/modern_fusion_pedas/berry_mix_peda.jpeg",
+      "availability": true
+    },
+    {
+      "id": 60,
+      "name": "Salted Caramel Peda",
+      "category": "Modern Fusion Pedas",
+      "description": "Delicious modern fusion pedas - Salted Caramel Peda.",
+      "price": 200,
+      "image": "/images/modern_fusion_pedas/salted_caramel_peda.jpeg",
+      "availability": true
+    }
+  ]
+}
