@@ -1,12 +1,12 @@
 {
-  "products": [
+  "Categories": [
     {
       "id": 21,
       "name": "Kaju Pista Peda",
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Kaju Pista Peda.",
       "price": 220,
-      "image": "/images/nutty_&_dry_fruit_pedas/kaju_pista_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/kaju_pista_peda.jpeg",
       "availability": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Almond Peda.",
       "price": 240,
-      "image": "/images/nutty_&_dry_fruit_pedas/almond_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/almond_peda.jpeg",
       "availability": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Pista Kesar Peda.",
       "price": 260,
-      "image": "/images/nutty_&_dry_fruit_pedas/pista_kesar_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/pista_kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Badam Kesar Peda.",
       "price": 280,
-      "image": "/images/nutty_&_dry_fruit_pedas/badam_kesar_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/badam_kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Cashew Cardamom Peda.",
       "price": 300,
-      "image": "/images/nutty_&_dry_fruit_pedas/cashew_cardamom_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/cashew_cardamom_peda.jpeg",
       "availability": true
     },
     {
@@ -51,7 +51,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Mixed Nut Peda.",
       "price": 320,
-      "image": "/images/nutty_&_dry_fruit_pedas/mixed_nut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/mixed_nut_peda.jpeg",
       "availability": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Walnut Peda.",
       "price": 340,
-      "image": "/images/nutty_&_dry_fruit_pedas/walnut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/walnut_peda.jpeg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Dry Fig Peda.",
       "price": 360,
-      "image": "/images/nutty_&_dry_fruit_pedas/dry_fig_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/dry_fig_peda.jpeg",
       "availability": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Raisin Peda.",
       "price": 380,
-      "image": "/images/nutty_&_dry_fruit_pedas/raisin_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/raisin_peda.jpeg",
       "availability": true
     },
     {
@@ -87,7 +87,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Coconut Almond Peda.",
       "price": 200,
-      "image": "/images/nutty_&_dry_fruit_pedas/coconut_almond_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/coconut_almond_peda.jpeg",
       "availability": true
     },
     {
@@ -96,7 +96,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Cashew Coconut Peda.",
       "price": 220,
-      "image": "/images/nutty_&_dry_fruit_pedas/cashew_coconut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/cashew_coconut_peda.jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Pista Rose Peda.",
       "price": 240,
-      "image": "/images/nutty_&_dry_fruit_pedas/pista_rose_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/pista_rose_peda.jpeg",
       "availability": true
     },
     {
@@ -114,7 +114,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Kesar Elaichi Nut Peda.",
       "price": 260,
-      "image": "/images/nutty_&_dry_fruit_pedas/kesar_elaichi_nut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/kesar_elaichi_nut_peda.jpeg",
       "availability": true
     },
     {
@@ -123,7 +123,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Almond Coconut Peda.",
       "price": 280,
-      "image": "/images/nutty_&_dry_fruit_pedas/almond_coconut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/almond_coconut_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Kaju Milk Peda.",
       "price": 300,
-      "image": "/images/nutty_&_dry_fruit_pedas/kaju_milk_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/kaju_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -141,7 +141,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Pista Milk Peda.",
       "price": 320,
-      "image": "/images/nutty_&_dry_fruit_pedas/pista_milk_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/pista_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -150,7 +150,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Mixed Fruit Nut Peda.",
       "price": 340,
-      "image": "/images/nutty_&_dry_fruit_pedas/mixed_fruit_nut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/mixed_fruit_nut_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Dry Fruit Delight Peda.",
       "price": 360,
-      "image": "/images/nutty_&_dry_fruit_pedas/dry_fruit_delight_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/dry_fruit_delight_peda.jpeg",
       "availability": true
     },
     {
@@ -168,7 +168,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Kesar Walnut Peda.",
       "price": 380,
-      "image": "/images/nutty_&_dry_fruit_pedas/kesar_walnut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/kesar_walnut_peda.jpeg",
       "availability": true
     },
     {
@@ -177,7 +177,7 @@
       "category": "Nutty & Dry Fruit Pedas",
       "description": "Delicious nutty & dry fruit pedas - Almond Honey Peda.",
       "price": 200,
-      "image": "/images/nutty_&_dry_fruit_pedas/almond_honey_peda.jpeg",
+      "image": "/Pedhe-Wale/images/nutty_&_dry_fruit_pedas/almond_honey_peda.jpeg",
       "availability": true
     }
   ]

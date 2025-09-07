@@ -1,20 +1,35 @@
 import { useState } from "react";
 
-const Login = () => {
+const Signup = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Login Data:", { email, password });
+    console.log("Signup Data:", { name, email, password });
     // 🔹 Future: backend API call yaha hoga
+    const res = await axios.post("http://localhost:5000/api/signup", { name, email, password });
+    alert(res.data.message);
   };
 
   return (
-    <div className="container d-flex justify-content-center align-items-center " style={{ minHeight: "80vh" }}>
+    <div className="container d-flex justify-content-center align-items-center" style={{ minHeight: "80vh" }}>
       <div className="card p-4 shadow" style={{ width: "400px" }}>
-        <h2 className="text-center mb-3">Login</h2>
+        <h2 className="text-center mb-3">Sign Up</h2>
         <form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <label className="form-label">Full Name</label>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Enter your name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+
           <div className="mb-3">
             <label className="form-label">Email</label>
             <input
@@ -39,8 +54,8 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary px-3 w-100">
-            Login
+          <button type="submit" className="btn btn-warning w-100">
+            Sign Up
           </button>
         </form>
       </div>
@@ -48,4 +63,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;

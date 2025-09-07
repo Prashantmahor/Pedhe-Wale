@@ -1,12 +1,12 @@
 {
-  "products": [
+  "Categories": [
     {
       "id": 81,
       "name": "Sugar-Free Kesar Peda",
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Sugar-Free Kesar Peda.",
       "price": 220,
-      "image": "/images/health-conscious_pedas/sugar-free_kesar_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/sugar-free_kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Date & Nut Peda.",
       "price": 240,
-      "image": "/images/health-conscious_pedas/date_&_nut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/date_&_nut_peda.jpeg",
       "availability": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Honey Peda.",
       "price": 260,
-      "image": "/images/health-conscious_pedas/honey_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/honey_peda.jpeg",
       "availability": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Jaggery Peda.",
       "price": 280,
-      "image": "/images/health-conscious_pedas/jaggery_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/jaggery_peda.jpeg",
       "availability": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Almond Milk Peda.",
       "price": 300,
-      "image": "/images/health-conscious_pedas/almond_milk_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/almond_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -51,7 +51,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Coconut Sugar Peda.",
       "price": 320,
-      "image": "/images/health-conscious_pedas/coconut_sugar_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/coconut_sugar_peda.jpeg",
       "availability": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Stevia Peda.",
       "price": 340,
-      "image": "/images/health-conscious_pedas/stevia_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/stevia_peda.jpeg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Protein Peda.",
       "price": 360,
-      "image": "/images/health-conscious_pedas/protein_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/protein_peda.jpeg",
       "availability": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Oats & Almond Peda.",
       "price": 380,
-      "image": "/images/health-conscious_pedas/oats_&_almond_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/oats_&_almond_peda.jpeg",
       "availability": true
     },
     {
@@ -87,7 +87,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Dry Fruit Energy Peda.",
       "price": 200,
-      "image": "/images/health-conscious_pedas/dry_fruit_energy_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/dry_fruit_energy_peda.jpeg",
       "availability": true
     },
     {
@@ -96,7 +96,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Cardamom Peda (Sugar-Free).",
       "price": 220,
-      "image": "/images/health-conscious_pedas/cardamom_peda_(sugar-free).jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/cardamom_peda_(sugar-free).jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Kaju Coconut Peda (No Sugar).",
       "price": 240,
-      "image": "/images/health-conscious_pedas/kaju_coconut_peda_(no_sugar).jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/kaju_coconut_peda_(no_sugar).jpeg",
       "availability": true
     },
     {
@@ -114,7 +114,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Multigrain Peda.",
       "price": 260,
-      "image": "/images/health-conscious_pedas/multigrain_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/multigrain_peda.jpeg",
       "availability": true
     },
     {
@@ -123,7 +123,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Moong Dal Peda.",
       "price": 280,
-      "image": "/images/health-conscious_pedas/moong_dal_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/moong_dal_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Peanut Butter Peda.",
       "price": 300,
-      "image": "/images/health-conscious_pedas/peanut_butter_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/peanut_butter_peda.jpeg",
       "availability": true
     },
     {
@@ -141,7 +141,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Walnut & Honey Peda.",
       "price": 320,
-      "image": "/images/health-conscious_pedas/walnut_&_honey_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/walnut_&_honey_peda.jpeg",
       "availability": true
     },
     {
@@ -150,7 +150,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Pista Protein Peda.",
       "price": 340,
-      "image": "/images/health-conscious_pedas/pista_protein_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/pista_protein_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Low-Fat Milk Peda.",
       "price": 360,
-      "image": "/images/health-conscious_pedas/low-fat_milk_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/low-fat_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -168,7 +168,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Saffron Oats Peda.",
       "price": 380,
-      "image": "/images/health-conscious_pedas/saffron_oats_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/saffron_oats_peda.jpeg",
       "availability": true
     },
     {
@@ -177,7 +177,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Health Mix Peda.",
       "price": 200,
-      "image": "/images/health-conscious_pedas/health_mix_peda.jpeg",
+      "image": "/Pedhe-Wale/images/health-conscious_pedas/health_mix_peda.jpeg",
       "availability": true
     }
   ]

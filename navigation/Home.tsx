@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"; // 👈 Router link
+import hero1 from "../src/assets/hero1.png";
+import hero2 from "../src/assets/hero2.webp";
+import { BiSolidOffer } from "react-icons/bi";
 
 export default function Home() {
   const categories = [
@@ -16,20 +19,20 @@ export default function Home() {
   ];
 
   const usps = [
-    { id: 1, title: "100% Pure & Fresh ingredients", link: "/about#ingredients" },
-    { id: 2, title: "Traditional Recipes", link: "/about#recipes" },
-    { id: 3, title: "Secure Packaging", link: "/about#packaging" },
+    { id: 1, title: "100% Pure & Fresh ingredients", subTitle:"No compromise with health",link: "/about#ingredients" },
+    { id: 2, title: "Traditional Recipes", subTitle:"Old is gold", link: "/about#recipes" },
+    { id: 3, title: "Secure Packaging", subTitle:"Lesser damage", link: "/about#packaging" },
   ];
 
   const heroSlides = [
     {
       heading: "Traditional Taste, Modern Delivery",
-      image: "../src/assets/hero1.png",
+      image: hero1,
       link: "/order",
     },
     {
       heading: "Mithaas jo dil jeet le",
-      image: "../src/assets/hero2.webp",
+      image: hero2,
       link: "/menu",
     },
   ];
@@ -47,7 +50,7 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-900 mb-4">
       {/* Hero Section */}
       <section
-        className="bg-cover bg-center relative h-78 mb-4"
+        className="bg-cover bg-center relative h-82 mb-4"
         style={{ backgroundImage: `url(${heroSlides[currentSlide].image})` }}
       >
         <div className="bg-black/40 absolute inset-0"></div>
@@ -58,11 +61,12 @@ export default function Home() {
               className="no-underline text-inherit"
             >
               <h1
-                className="text-4xl md:text-5xl font-semibold mb-6 transition-opacity duration-1000 ease-in-out cursor-pointer"
+                className="text-4xl md:text-5xl font-semibold mb-6 mt-5 transition-opacity duration-1000 ease-in-out cursor-pointer"
                 key={heroSlides[currentSlide].heading}
               >
                 {heroSlides[currentSlide].heading}
               </h1>
+              
             </Link>
             <p className="mb-8 text-lg leading-relaxed">
               Mathura ke asli pedhe — ghar jaisa taste, taiyar delivery.
@@ -101,7 +105,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
       {/* Best Sellers */}
       <section id="products" className="bg-white">
         <div className="max-w-8xl mx-auto px-4 py-10">
@@ -111,7 +114,7 @@ export default function Home() {
               <Link
                 key={p.id}
                 to={p.link}
-                className="no-underline text-inherit"
+                className="no-underline text-inherit hover:no-underline"
               >
                 <div className="border rounded-lg p-4 cursor-pointer hover:shadow-lg">
                   <div className="w-full h-36 bg-gray-200 rounded mb-4"></div>
@@ -120,7 +123,8 @@ export default function Home() {
                       <div className="font-medium">{p.name}</div>
                       <div className="text-sm text-gray-600">{p.price}</div>
                     </div>
-                    <button className="px-3 py-2 border rounded text-sm">
+                    <button className="px-3 py-2 border rounded text-sm 
+                    bg-gray-800 text-white hover:bg-gray-700">
                       Add
                     </button>
                   </div>
@@ -142,11 +146,11 @@ export default function Home() {
               className="no-underline text-inherit"
             >
               <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
-                <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center" />
+                <img src="https://media.assettype.com/freepressjournal/2023-09/ddd44940-3f42-413c-93fc-31794912990b/Veg_Logo.jpeg" className="w-12 h-12" alt="quality assurance" />
                 <div>
                   <div className="font-medium">{u.title}</div>
                   <div className="text-sm text-gray-600">
-                    Authentic & trusted
+                   {u.subTitle}
                   </div>
                 </div>
               </div>
@@ -158,15 +162,15 @@ export default function Home() {
       {/* Special Offers */}
       <section className="max-w-8xl mx-auto px-4 py-10">
         <h3 className="text-lg font-semibold mb-4 mt-4">Special Offers</h3>
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[1, 2, 3].map((offer, i) => (
             <Link
               key={i}
               to={`/offer/${offer}`}
               className="no-underline text-inherit"
             >
-              <div className="border rounded-lg p-4 flex gap-4 items-center cursor-pointer hover:shadow-lg">
-                <div className="w-16 h-16 bg-gray-200 rounded" />
+              <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
+                <BiSolidOffer className="offer" />
                 <div>
                   <div className="font-medium">Ganesh Chaturthi Special</div>
                   <div className="text-sm text-gray-600">

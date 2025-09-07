@@ -1,7 +1,6 @@
 interface ExoticPedasProps {
   onGetPostsClick?: (tab: string) => void; // optional prop
 }
-
 const ExoticPedas = ({onGetPostsClick}:ExoticPedasProps) => {
   return (
     <>     

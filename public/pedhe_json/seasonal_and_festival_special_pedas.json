@@ -1,12 +1,12 @@
 {
-  "products": [
+  "Categories": [
     {
       "id": 61,
       "name": "Diwali Kesar Peda",
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Diwali Kesar Peda.",
       "price": 220,
-      "image": "/images/seasonal_&_festival_special_pedas/diwali_kesar_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/diwali_kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Holi Gulal Peda.",
       "price": 240,
-      "image": "/images/seasonal_&_festival_special_pedas/holi_gulal_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/holi_gulal_peda.jpeg",
       "availability": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Janmashtami Malai Peda.",
       "price": 260,
-      "image": "/images/seasonal_&_festival_special_pedas/janmashtami_malai_peda.jpg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/janmashtami_malai_peda.jpg",
       "availability": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Raksha Bandhan Pista Peda.",
       "price": 280,
-      "image": "/images/seasonal_&_festival_special_pedas/raksha_bandhan_pista_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/raksha_bandhan_pista_peda.jpeg",
       "availability": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Ganesh Chaturthi Modak Style Peda.",
       "price": 300,
-      "image": "/images/seasonal_&_festival_special_pedas/ganesh_chaturthi_modak_style_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/ganesh_chaturthi_modak_style_peda.jpeg",
       "availability": true
     },
     {
@@ -51,7 +51,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Christmas Choco Peda.",
       "price": 320,
-      "image": "/images/seasonal_&_festival_special_pedas/christmas_choco_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/christmas_choco_peda.jpeg",
       "availability": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Eid Kaju Peda.",
       "price": 340,
-      "image": "/images/seasonal_&_festival_special_pedas/eid_kaju_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/eid_kaju_peda.jpeg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - New Year Special Peda.",
       "price": 360,
-      "image": "/images/seasonal_&_festival_special_pedas/new_year_special_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/new_year_special_peda.jpeg",
       "availability": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Karwa Chauth Rose Peda.",
       "price": 380,
-      "image": "/images/seasonal_&_festival_special_pedas/karwa_chauth_rose_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/karwa_chauth_rose_peda.jpeg",
       "availability": true
     },
     {
@@ -87,7 +87,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Spring Mango Peda.",
       "price": 200,
-      "image": "/images/seasonal_&_festival_special_pedas/spring_mango_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/spring_mango_peda.jpeg",
       "availability": true
     },
     {
@@ -96,7 +96,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Summer Coconut Peda.",
       "price": 220,
-      "image": "/images/seasonal_&_festival_special_pedas/summer_coconut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/summer_coconut_peda.jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Winter Kesar Almond Peda.",
       "price": 240,
-      "image": "/images/seasonal_&_festival_special_pedas/winter_kesar_almond_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/winter_kesar_almond_peda.jpeg",
       "availability": true
     },
     {
@@ -114,7 +114,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Navratri Elaichi Peda.",
       "price": 260,
-      "image": "/images/seasonal_&_festival_special_pedas/navratri_elaichi_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/navratri_elaichi_peda.jpeg",
       "availability": true
     },
     {
@@ -123,7 +123,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Diwali Dry Fruit Peda.",
       "price": 280,
-      "image": "/images/seasonal_&_festival_special_pedas/diwali_dry_fruit_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/diwali_dry_fruit_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Holi Chocolate Peda.",
       "price": 300,
-      "image": "/images/seasonal_&_festival_special_pedas/holi_chocolate_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/holi_chocolate_peda.jpeg",
       "availability": true
     },
     {
@@ -141,7 +141,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Janmashtami Nut Peda.",
       "price": 320,
-      "image": "/images/seasonal_&_festival_special_pedas/janmashtami_nut_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/janmashtami_nut_peda.jpeg",
       "availability": true
     },
     {
@@ -150,7 +150,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Christmas Berry Peda.",
       "price": 340,
-      "image": "/images/seasonal_&_festival_special_pedas/christmas_berry_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/christmas_berry_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Eid Pista Delight.",
       "price": 360,
-      "image": "/images/seasonal_&_festival_special_pedas/eid_pista_delight.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/eid_pista_delight.jpeg",
       "availability": true
     },
     {
@@ -168,7 +168,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - New Year Special Vanilla Peda.",
       "price": 380,
-      "image": "/images/seasonal_&_festival_special_pedas/new_year_special_vanilla_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/new_year_special_vanilla_peda.jpeg",
       "availability": true
     },
     {
@@ -177,7 +177,7 @@
       "category": "Seasonal & Festival Special Pedas",
       "description": "Delicious seasonal & festival special pedas - Festival Mix Peda.",
       "price": 200,
-      "image": "/images/seasonal_&_festival_special_pedas/festival_mix_peda.jpeg",
+      "image": "/Pedhe-Wale/images/seasonal_&_festival_special_pedas/festival_mix_peda.jpeg",
       "availability": true
     }
   ]
