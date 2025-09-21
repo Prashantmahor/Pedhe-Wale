@@ -6,7 +6,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Mango Peda.",
       "price": 220,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/mango_peda.jpeg",
+      "image": "/images/fruit-based_pedas/mango_peda.jpeg",
       "availability": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Strawberry Peda.",
       "price": 240,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/strawberry_peda.jpeg",
+      "image": "/images/fruit-based_pedas/strawberry_peda.jpeg",
       "availability": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Pineapple Peda.",
       "price": 260,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/pineapple_peda.jpeg",
+      "image": "/images/fruit-based_pedas/pineapple_peda.jpeg",
       "availability": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Apple Peda.",
       "price": 280,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/apple_peda.jpeg",
+      "image": "/images/fruit-based_pedas/apple_peda.jpeg",
       "availability": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Banana Peda.",
       "price": 300,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/banana_peda.jpeg",
+      "image": "/images/fruit-based_pedas/banana_peda.jpeg",
       "availability": true
     },
     {
@@ -51,7 +51,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Orange Peda.",
       "price": 320,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/orange_peda.jpeg",
+      "image": "/images/fruit-based_pedas/orange_peda.jpeg",
       "availability": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Kiwi Peda.",
       "price": 340,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/kiwi_peda.jpeg",
+      "image": "/images/fruit-based_pedas/kiwi_peda.jpeg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Blueberry Peda.",
       "price": 360,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/blueberry_peda.jpeg",
+      "image": "/images/fruit-based_pedas/blueberry_peda.jpeg",
       "availability": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Grapes Peda.",
       "price": 380,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/grapes_peda.jpeg",
+      "image": "/images/fruit-based_pedas/grapes_peda.jpeg",
       "availability": true
     },
     {
@@ -87,7 +87,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Papaya Peda.",
       "price": 200,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/papaya_peda.jpeg",
+      "image": "/images/fruit-based_pedas/papaya_peda.jpeg",
       "availability": true
     },
     {
@@ -96,7 +96,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Guava Peda.",
       "price": 220,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/guava_peda.jpeg",
+      "image": "/images/fruit-based_pedas/guava_peda.jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Chikoo Peda.",
       "price": 240,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/chikoo_peda.jpeg",
+      "image": "/images/fruit-based_pedas/chikoo_peda.jpeg",
       "availability": true
     },
     {
@@ -114,7 +114,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Coconut Pineapple Peda.",
       "price": 260,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/coconut_pineapple_peda.jpeg",
+      "image": "/images/fruit-based_pedas/coconut_pineapple_peda.jpeg",
       "availability": true
     },
     {
@@ -123,7 +123,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Lychee Peda.",
       "price": 280,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/lychee_peda.jpeg",
+      "image": "/images/fruit-based_pedas/lychee_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Jamun Peda.",
       "price": 300,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/jamun_peda.jpeg",
+      "image": "/images/fruit-based_pedas/jamun_peda.jpeg",
       "availability": true
     },
     {
@@ -141,7 +141,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Pomegranate Peda.",
       "price": 320,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/pomegranate_peda.jpeg",
+      "image": "/images/fruit-based_pedas/pomegranate_peda.jpeg",
       "availability": true
     },
     {
@@ -150,7 +150,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Berry Delight Peda.",
       "price": 340,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/berry_delight_peda.jpeg",
+      "image": "/images/fruit-based_pedas/berry_delight_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Peach Peda.",
       "price": 360,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/peach_peda.jpeg",
+      "image": "/images/fruit-based_pedas/peach_peda.jpeg",
       "availability": true
     },
     {
@@ -168,7 +168,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Fig Peda.",
       "price": 380,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/fig_peda.jpeg",
+      "image": "/images/fruit-based_pedas/fig_peda.jpeg",
       "availability": true
     },
     {
@@ -177,7 +177,7 @@
       "category": "Fruit-Based Pedas",
       "description": "Delicious fruit-based pedas - Fruit Mix Peda.",
       "price": 200,
-      "image": "/Pedhe-Wale/images/fruit-based_pedas/fruit_mix_peda.jpeg",
+      "image": "/images/fruit-based_pedas/fruit_mix_peda.jpeg",
       "availability": true
     }
   ]

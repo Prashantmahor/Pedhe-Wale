@@ -5,9 +5,9 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import authRoutes from "./routes/auth.js";
-import connectDB from "./config/db.js"; 
+import connectDB from "./config/db.js";
 import categoryRoutes from "./routes/categories.js";
-
+import subscriberRoutes from "./routes/subscriber.js"; // 👈 NEW
 
 dotenv.config();
 
@@ -19,12 +19,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// MongoDB connect call
+// ✅ MongoDB connect
 connectDB();
 
-// ✅ Auth Routes
+// ✅ Routes
 app.use("/api", authRoutes);
 app.use("/api/categories", categoryRoutes);
+app.use("/api/subscribe", subscriberRoutes); // 👈 NEW
 
 // ✅ Static files serve
 app.use("/images", express.static(path.join(__dirname, "public", "images")));
@@ -86,5 +87,5 @@ app.post("/api/dialogflow", (req, res) => {
 // ✅ Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`🚀 Chatbot running at http://localhost:${PORT}`);
+  console.log(`🚀 Server running at http://localhost:${PORT}`);
 });

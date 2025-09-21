@@ -9,6 +9,8 @@ import Signup from "./navigation/SignUp";
 import Categories from "./navigation/Categories";
 import Profile from "./navigation/Profile";
 import Login from "./navigation/Login";
+import Checkout from "./navigation/Checkout"; 
+import OrderConfirmation from "./navigation/OrderConfirmation"; 
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/order-confirmation" element={<OrderConfirmation />} />
           </Routes>
         </div>
       </div>

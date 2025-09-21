@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom"; // 👈 Router link
+import { Link } from "react-router-dom";
 import hero1 from "../assets/hero1.png";
 import hero2 from "../assets/hero2.webp";
 import { BiSolidOffer } from "react-icons/bi";
@@ -32,27 +32,28 @@ export default function Home() {
     },
   ];
 
+  // ✅ Best Sellers = Only Pedhe varieties
   const bestSellers = [
     {
       id: 1,
-      name: "Mathura ke Pedha",
+      name: "Mathura ke Pedhe",
       price: "₹412",
       link: "/product/1",
       image: "http://localhost:5000/images/best_seller/mathura_ke_pedhe.jpeg",
     },
     {
       id: 2,
-      name: "Motichoor Laddu",
-      price: "₹410",
+      name: "Kesar Pedhe",
+      price: "₹450",
       link: "/product/2",
-      image: "http://localhost:5000/images/best_seller/motichoor_laddu.jpeg",
+      image: "http://localhost:5000/images/best_seller/kesar_peda.jpeg",
     },
     {
       id: 3,
-      name: "Rasgulla",
-      price: "₹480",
+      name: "Mawa Pedhe",
+      price: "₹430",
       link: "/product/3",
-      image: "http://localhost:5000/images/best_seller/rasgulla.jpeg",
+      image: "http://localhost:5000/images/best_seller/mawa.jpeg",
     },
   ];
 
@@ -161,6 +162,7 @@ export default function Home() {
           ))}
         </div>
       </section>
+
       {/* Best Sellers */}
       <section id="products" className="bg-white">
         <div className="max-w-8xl mx-auto px-4 py-10">
@@ -185,7 +187,7 @@ export default function Home() {
                     </div>
                     <button
                       className="px-3 py-2 border rounded text-sm 
-                bg-gray-800 text-white hover:bg-gray-700"
+                bg-yellow-400 text-black hover:bg-yellow-500"
                     >
                       Add
                     </button>
@@ -227,21 +229,41 @@ export default function Home() {
       <section className="max-w-8xl mx-auto px-4 py-10">
         <h3 className="text-lg font-semibold mb-4 mt-4">Special Offers</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[1, 2, 3].map((offer, i) => (
-            <Link
-              key={i}
-              to={`/offer/${offer}`}
-              className="no-underline text-inherit"
-            >
-              <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
-                <BiSolidOffer className="offer" />
-                <div>
-                  <div className="font-medium">Ganesh Chaturthi Special</div>
-                  <div className="text-sm text-gray-600">Modak Collection</div>
+          <Link to="/offer/card" className="no-underline text-inherit text-decoration-none text-reset">
+            <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
+              <BiSolidOffer className="offer" />
+              <div>
+                <div className="font-bold">Card Offer</div>
+                <div className="text-sm text-gray-600">
+                  Pay via Credit/Debit Card and get 10% off
                 </div>
               </div>
-            </Link>
-          ))}
+            </div>
+          </Link>
+
+          <Link to="/offer/combo" className="no-underline text-inherit text-decoration-none text-reset">
+            <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
+             <BiSolidOffer className="offer" />
+              <div>
+                <div className="font-bold">Combo Offer</div>
+                <div className="text-sm text-gray-600">
+                  Buy 2 Gift Packs, Get 1 Free
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/offer/voucher" className="no-underline text-inherit text-decoration-none text-reset">
+            <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
+              <BiSolidOffer className="offer" />
+              <div>
+                <div className="font-bold">Voucher Offer</div>
+                <div className="text-sm text-gray-600">
+                  Shop above ₹2000 & get ₹200 voucher
+                </div>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </div>

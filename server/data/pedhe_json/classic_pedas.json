@@ -6,7 +6,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Kesar Peda.",
       "price": 220,
-      "image": "kesar_peda.jpeg",
+      "image": "/images/classic_pedas/kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Plain Milk Peda.",
       "price": 240,
-      "image": "/classic_pedas/plain_milk_peda.jpeg",
+      "image": "/images/classic_pedas/plain_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Malai Peda.",
       "price": 260,
-      "image": "/Pedhe-Wale/images/classic_pedas/malai_peda.jpeg",
+      "image": "/images/classic_pedas/malai_peda.jpeg",
       "availability": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Gulab Peda.",
       "price": 280,
-      "image": "/Pedhe-Wale/images/classic_pedas/gulab_peda.jpeg",
+      "image": "/images/classic_pedas/gulab_peda.jpeg",
       "availability": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Chikoo Peda.",
       "price": 300,
-      "image": "/Pedhe-Wale/images/classic_pedas/chikoo_peda.jpeg",
+      "image": "/images/classic_pedas/chikoo_peda.jpeg",
       "availability": true
     },
     {
@@ -51,7 +51,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Elaichi Peda.",
       "price": 320,
-      "image": "/Pedhe-Wale/images/classic_pedas/elaichi_peda.jpeg",
+      "image": "/images/classic_pedas/elaichi_peda.jpeg",
       "availability": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Rose Peda.",
       "price": 340,
-      "image": "/Pedhe-Wale/images/classic_pedas/rose_peda.jpeg",
+      "image": "/images/classic_pedas/rose_peda.jpeg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Saffron Almond Peda.",
       "price": 360,
-      "image": "/Pedhe-Wale/images/classic_pedas/saffron_almond_peda.jpeg",
+      "image": "/images/classic_pedas/saffron_almond_peda.jpeg",
       "availability": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Plain Khoya Peda.",
       "price": 380,
-      "image": "/Pedhe-Wale/images/classic_pedas/plain_khoya_peda.jpeg",
+      "image": "/images/classic_pedas/plain_khoya_peda.jpeg",
       "availability": true
     },
     {
@@ -87,7 +87,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Mawa Peda.",
       "price": 200,
-      "image": "/Pedhe-Wale/images/classic_pedas/mawa_peda.jpeg",
+      "image": "/images/classic_pedas/mawa_peda.jpeg",
       "availability": true
     },
     {
@@ -96,7 +96,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Coconut Peda.",
       "price": 220,
-      "image": "/Pedhe-Wale/images/classic_pedas/coconut_peda.jpeg",
+      "image": "/images/classic_pedas/coconut_peda.jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Kaju Peda.",
       "price": 240,
-      "image": "/Pedhe-Wale/images/classic_pedas/kaju_peda.jpeg",
+      "image": "/images/classic_pedas/kaju_peda.jpeg",
       "availability": true
     },
     {
@@ -114,7 +114,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Badam Peda.",
       "price": 260,
-      "image": "/Pedhe-Wale/images/classic_pedas/badam_peda.jpeg",
+      "image": "/images/classic_pedas/badam_peda.jpeg",
       "availability": true
     },
     {
@@ -123,7 +123,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Pista Peda.",
       "price": 280,
-      "image": "/Pedhe-Wale/images/classic_pedas/pista_peda.jpeg",
+      "image": "/images/classic_pedas/pista_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Milk Powder Peda.",
       "price": 300,
-      "image": "/Pedhe-Wale/images/classic_pedas/milk_powder_peda.jpeg",
+      "image": "/images/classic_pedas/milk_powder_peda.jpeg",
       "availability": true
     },
     {
@@ -141,7 +141,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Chocolate Kesar Peda.",
       "price": 320,
-      "image": "/Pedhe-Wale/images/classic_pedas/chocolate_kesar_peda.jpeg",
+      "image": "/images/classic_pedas/chocolate_kesar_peda.jpeg",
       "availability": true
     },
     {
@@ -150,7 +150,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Vanilla Peda.",
       "price": 340,
-      "image": "/Pedhe-Wale/images/classic_pedas/vanilla_peda.jpeg",
+      "image": "/images/classic_pedas/vanilla_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Honey Peda.",
       "price": 360,
-      "image": "/Pedhe-Wale/images/classic_pedas/honey_peda.jpeg",
+      "image": "/images/classic_pedas/honey_peda.jpeg",
       "availability": true
     },
     {
@@ -168,7 +168,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Condensed Milk Peda.",
       "price": 380,
-      "image": "/Pedhe-Wale/images/classic_pedas/condensed_milk_peda.jpeg",
+      "image": "/images/classic_pedas/condensed_milk_peda.jpeg",
       "availability": true
     },
     {
@@ -177,7 +177,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Mithai Special Peda.",
       "price": 200,
-      "image": "/Pedhe-Wale/images/classic_pedas/mithai_special_peda.jpeg",
+      "image": "/images/classic_pedas/mithai_special_peda.jpeg",
       "availability": true
     }
   ]
