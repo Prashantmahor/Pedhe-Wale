@@ -1,219 +1,273 @@
-import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
   const navigate = useNavigate();
-  const token = localStorage.getItem("token");
-  const userName = localStorage.getItem("userName");
-  const [menuOpen, setMenuOpen] = useState(false);
+  const token = localStorage.getItem("token"); // ✅ check user login
+  const userName = localStorage.getItem("userName"); // optional, login ke time save karna
 
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("userName");
     navigate("/Login");
   };
-
   return (
-    <header
-      className="p-3 text-bg-dark shadow-sm"
-      style={{ backgroundColor: "#1a1a1a" }}
-    >
-      <div className="container-fluid">
-        <div className="d-flex align-items-center justify-content-between">
-          {/* Logo */}
-          <div className="d-flex align-items-center">
-            <NavLink
-              to="/"
-              className="d-flex align-items-center text-decoration-none"
-            >
-              <img
-                src={logo}
-                alt="Pedhe Wala Logo"
-                style={{
-                  height: "50px",
-                  width: "auto",
-                  borderRadius: "8px",
-                }}
-              />
-              <div className="d-none d-sm-block ms-2">
-                <h1
-                  className="mb-0 fw-bold"
-                  style={{
-                    fontSize: "1.8rem",
-                    color: "#FFC107",
-                    textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
-                  }}
-                >
-                  Pedhe Wala
-                </h1>
-                <small
-                  className="text-light opacity-75"
-                  style={{
-                    fontSize: "0.75rem",
-                    fontWeight: "500",
-                    marginTop: "-2px",
-                  }}
-                >
-                  Your Learning Partner
-                </small>
-              </div>
-            </NavLink>
-          </div>
+    <>
+      <header className="bg-black shadow-md header">
+        <div className="container">
+          <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            {/* Logo / Brand */}
+         <NavLink
+  to="/"
+  className="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none"
+>
+  <div className="flex items-center justify-around">
+    <img
+      src={logo}
+      alt="Logo"
+      className="h-[100px] w-auto object-contain"
+    />
+    <h1 className="font-serif text-5xl  mt-2" style={{ color: "#FFC107", fontWeight: "bold" }}>
+      Pedhe Wala
+    </h1>
+  </div>
+</NavLink>
 
-          {/* Hamburger for Mobile */}
-          <button
-            className="btn d-lg-none text-white fs-4"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            <i className={`bi ${menuOpen ? "bi-x-lg" : "bi-list"}`}></i>
-          </button>
 
-          {/* Navigation Menu */}
-          <div
-            className={`${
-              menuOpen ? "d-flex" : "d-none"
-            } flex-column flex-lg-row align-items-lg-center justify-content-lg-center gap-3 w-100 mt-3 mt-lg-0 text-center text-lg-start bg-dark bg-lg-transparent p-3 p-lg-0 position-absolute position-lg-static top-100 start-0 z-3`}
-            style={{ borderRadius: "8px" }}
-          >
-            <ul className="nav flex-column flex-lg-row mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink to="/" className="nav-link text-white px-3 py-2">
-                  <i className="bi bi-house d-block mx-auto mb-1 fs-5"></i>
+
+            {/* Navigation */}
+            <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    `nav-link ${
+                      isActive ? "text-warning fw-bold" : "text-white"
+                    }`
+                  }
+                >
+                  <i className="bi bi-house d-block mx-auto mb-1 fs-5 ms-2"></i>
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/Categories" className="nav-link text-white px-3 py-2">
-                  <i className="bi bi-speedometer2 d-block mx-auto mb-1 fs-5"></i>
+              <li>
+                <NavLink
+                  to="/Categories"
+                  className={({ isActive }) =>
+                    `nav-link ${
+                      isActive ? "text-warning fw-bold" : "text-white"
+                    }`
+                  }
+                >
+                  <i className="bi bi-speedometer2 d-block mx-auto mb-1 fs-5 ms-4"></i>
                   Categories
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <button
-                  className="nav-link text-white px-3 py-2 bg-transparent border-0"
-                  onClick={() => {
-                    if (!token) {
-                      alert("Please login to access orders");
-                      navigate("/Login");
-                      return;
-                    }
-                    navigate("/Orders");
-                  }}
+              <li>
+                <NavLink
+                  to="/Orders"
+                  className={({ isActive }) =>
+                    `nav-link ${
+                      isActive ? "text-warning fw-bold" : "text-white"
+                    }`
+                  }
                 >
-                  <i className="bi bi-table d-block mx-auto mb-1 fs-5"></i>
+                  <i className="bi bi-table d-block mx-auto mb-1 fs-5 ms-3"></i>
                   Orders
-                </button>
+                </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/Products" className="nav-link text-white px-3 py-2">
-                  <i className="bi bi-grid d-block mx-auto mb-1 fs-5"></i>
+              <li>
+                <NavLink
+                  to="/Products"
+                  className={({ isActive }) =>
+                    `nav-link ${
+                      isActive ? "text-warning fw-bold" : "text-white"
+                    }`
+                  }
+                >
+                  <i className="bi bi-grid d-block mx-auto mb-1 fs-5 ms-3"></i>
                   Products
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <button
-                  className="nav-link text-white px-3 py-2 bg-transparent border-0"
-                  onClick={() => {
-                    if (!token) {
-                      alert("Please login to access profile");
-                      navigate("/Login");
-                      return;
-                    }
-                    navigate("/Profile");
-                  }}
+              <li>
+                <NavLink
+                  to="/Profile"
+                  className={({ isActive }) =>
+                    `nav-link ${
+                      isActive ? "text-warning fw-bold" : "text-white"
+                    }`
+                  }
                 >
-                  <i className="bi bi-person-circle d-block mx-auto mb-1 fs-5"></i>
+                  <i className="bi bi-person-circle d-block mx-auto mb-1 fs-5 ms-2"></i>
                   Profile
-                </button>
+                </NavLink>
               </li>
             </ul>
 
             {/* Search Bar */}
             <form
-              className="col-12 col-lg-auto mb-3 mb-lg-0 mx-auto"
+              className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
               role="search"
-              style={{ maxWidth: "300px" }}
             >
-              <div className="input-group">
-                <input
-                  type="search"
-                  className="form-control"
-                  placeholder="Search books, courses..."
-                  aria-label="Search"
-                  style={{
-                    borderRadius: "25px",
-                    border: "2px solid #FFC107",
-                  }}
-                />
-                <button
-                  className="btn"
-                  type="submit"
-                  style={{
-                    backgroundColor: "#FFC107",
-                    border: "2px solid #FFC107",
-                    borderRadius: "0 25px 25px 0",
-                    color: "#1a1a1a",
-                  }}
-                >
-                  <i className="bi bi-search"></i>
-                </button>
-              </div>
+              <input
+                type="search"
+                className="form-control form-control-dark"
+                placeholder="Search..."
+                aria-label="Search"
+                style={{
+                      borderRadius: "25px",
+                      color: "#333",
+                      border: "none"
+                    }}
+              />
             </form>
 
-            {/* Auth Buttons */}
-            <div className="mt-3 mt-lg-0 text-center text-lg-start">
-              {!token ? (
-                <div className="d-flex flex-column flex-lg-row gap-2">
-                  <NavLink to="/Login">
-                    <button className="btn btn-outline-light px-4 w-100">
-                      Login
-                    </button>
-                  </NavLink>
-                  <NavLink to="/SignUp">
-                    <button className="btn btn-warning px-4 w-100">Sign Up</button>
-                  </NavLink>
-                </div>
-              ) : (
-                <div className="dropdown w-100">
-                  <button
-                    className="btn btn-warning dropdown-toggle w-100"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <i className="bi bi-person-circle me-2"></i>
-                    {userName || "User"}
+          {/* Buttons */}
+          <div className="text-end">
+            {!token ? (
+              <>
+                <NavLink to="/Login">
+                  <button type="button" className="btn btn-primary px-3 me-3"  style={{
+                          borderRadius: "25px",
+                          transition: "all 0.3s ease",
+                          
+                        }}>
+                    Login
                   </button>
-                  <ul className="dropdown-menu w-100 text-center">
-                    <li>
-                      <NavLink className="dropdown-item" to="/Profile">
-                        <i className="bi bi-person me-2"></i>Profile
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className="dropdown-item" to="/Orders">
-                        <i className="bi bi-table me-2"></i>Orders
-                      </NavLink>
-                    </li>
-                    <li><hr className="dropdown-divider" /></li>
-                    <li>
-                      <button
-                        className="dropdown-item text-danger"
-                        onClick={handleLogout}
-                      >
-                        <i className="bi bi-box-arrow-right me-2"></i>Logout
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-              )}
-            </div>
+                </NavLink>
+                <NavLink to="/SignUp">
+                  <button type="button" className="btn btn-warning px-3" style={{
+                          borderRadius: "25px",
+                          backgroundColor: "#FFC107",
+                          color: "#1a1a1a",
+                          fontWeight: "600",
+                          transition: "all 0.3s ease"
+                        }}>
+                    Sign Up
+                  </button>
+                </NavLink>
+              </>
+            ) : (
+              <>
+                <button
+                  onClick={handleLogout}
+                  type="button"
+                  className="btn btn-danger px-3"
+                >
+                  Logout
+                </button>
+              </>
+            )}
+          </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 };
 
 export default Header;
+
+
+
+
+
+
+
+
+
+// import { NavLink, useNavigate } from "react-router-dom";
+// import logo from "../assets/logo.png";
+
+// const Header = () => {
+//   const navigate = useNavigate();
+//   const token = localStorage.getItem("token"); 
+//   const userName = localStorage.getItem("userName");
+
+//   const handleLogout = () => {
+//     localStorage.removeItem("token");
+//     localStorage.removeItem("userName");
+//     navigate("/Login");
+//   };
+
+//   return (
+//     <header className="bg-black shadow-md">
+//       <div className="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
+//         {/* Logo / Brand */}
+//         <NavLink to="/" className="flex items-center gap-3">
+//           <img
+//             src={logo}
+//             alt="Logo"
+//             className="h-[70px] w-auto object-contain"
+//           />
+//           <h1 className="font-serif text-4xl text-yellow-400 font-bold">
+//             Pedhe Wala
+//           </h1>
+//         </NavLink>
+
+//         {/* Navigation */}
+//         <ul className="flex gap-6 items-center">
+//           {[
+//             { to: "/", label: "Home", icon: "bi-house" },
+//             { to: "/Categories", label: "Categories", icon: "bi-speedometer2" },
+//             { to: "/Orders", label: "Orders", icon: "bi-table" },
+//             { to: "/Products", label: "Products", icon: "bi-grid" },
+//             { to: "/Profile", label: "Profile", icon: "bi-person-circle" },
+//           ].map((item) => (
+//             <li key={item.to}>
+//               <NavLink
+//                 to={item.to}
+//                 className={({ isActive }) =>
+//                   `flex items-center gap-2 px-3 py-2 rounded-lg transition ${
+//                     isActive
+//                       ? "bg-yellow-400 text-black shadow-[0_0_15px_rgba(255,193,7,0.8)]"
+//                       : "text-white hover:text-yellow-400 hover:bg-white/10"
+//                   }`
+//                 }
+//               >
+//                 <i className={`bi ${item.icon} fs-5`}></i>
+//                 {item.label}
+//               </NavLink>
+//             </li>
+//           ))}
+//         </ul>
+
+//         {/* Search Bar */}
+//         <form className="hidden md:block">
+//           <input
+//             type="search"
+//             className="px-3 py-2 rounded-lg bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+//             placeholder="Search..."
+//           />
+//         </form>
+
+//         {/* Buttons */}
+//         <div className="flex gap-3">
+//           {!token ? (
+//             <>
+//               <NavLink to="/Login">
+//                 <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
+//                   Login
+//                 </button>
+//               </NavLink>
+//               <NavLink to="/SignUp">
+//                 <button className="bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-lg font-semibold">
+//                   Sign Up
+//                 </button>
+//               </NavLink>
+//             </>
+//           ) : (
+//             <button
+//               onClick={handleLogout}
+//               className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg"
+//             >
+//               Logout
+//             </button>
+//           )}
+//         </div>
+//       </div>
+//     </header>
+//   );
+// };
+
+// export default Header;
