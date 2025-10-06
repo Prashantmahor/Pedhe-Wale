@@ -46,5 +46,39 @@
     "category": "Combo Packs",
     "description": "Combo of sweets, dry fruits and namkeen for families.",
     "image": "/Pedhe-Wale/images/combo_pack.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Classic Peda",
+    "price": 299,
+    "category": "Pedhe",
+    "description": "Delicious peda made from pure milk.",
+    "image": "/images/pedhe1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mix Peda Box",
+    "price": 499,
+    "category": "Namkeen",
+    "description": "Assorted peda box with multiple flavors.",
+    "image": "/images/mixpeda.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Festival Gift Pack",
+    "price": 799,
+    "category": "Gift Packs",
+    "description": "Perfect gift for family and friends.",
+    "image": "/images/giftpack.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Celebration Combo",
+    "price": 999,
+    "category": "Combo Packs",
+    "description": "Combo of sweets & dry fruits.",
+    "image": "/images/combo.jpg"
   }
 ]
+
+
