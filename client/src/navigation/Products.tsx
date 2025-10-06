@@ -1,3 +1,5 @@
+
+
 import { useEffect, useState } from "react";
 
 interface Product {
@@ -15,12 +17,15 @@ const Products = () => {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All");
 
+  // Fetch products.json
   useEffect(() => {
-    fetch("/Pedhe-Wale/data/products.json")
+    fetch("http://localhost:5000/products/products.json")
       .then((res) => res.json())
-      .then((data) => setProducts(data));
+      .then((data) => setProducts(data))
+      .catch((err) => console.error("Error loading products:", err));
   }, []);
 
+  // Add to cart
   const addToCart = (product: Product) => {
     setCart([...cart, product]);
   };
@@ -35,6 +40,7 @@ const Products = () => {
 
   return (
     <div className="container py-5">
+      {/* Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2>Our Products</h2>
         <button className="btn btn-primary">
@@ -42,7 +48,7 @@ const Products = () => {
         </button>
       </div>
 
-      {/* Search & Filter */}
+      {/* Search & Category Filter */}
       <div className="row mb-4">
         <div className="col-md-6 mb-2">
           <input
@@ -56,13 +62,13 @@ const Products = () => {
         <div className="col-md-6">
           <select
             className="form-select"
+            aria-label="Select Category"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
           >
             <option value="All">All Categories</option>
-            <option value="Pedhe">Pedhe</option>
-            <option value="Dry Fruit Sweets">Dry Fruit Sweets</option>
-            <option value="Namkeen">Namkeen</option>
+            <option value="Pedhe">New Pedas</option>
+            <option value="Namkeen">Mix Peda Boxes</option>
             <option value="Gift Packs">Gift Packs</option>
             <option value="Combo Packs">Combo Packs</option>
           </select>
@@ -76,10 +82,11 @@ const Products = () => {
             <div key={product.id} className="col-md-4 mb-4">
               <div className="card shadow-sm h-100">
                 <img
-                  src={product.image}
+                  src={product.image.startsWith('http') ? product.image : `http://localhost:5000${product.image}`}
                   alt={product.name}
                   className="card-img-top"
                   style={{ height: "200px", objectFit: "cover" }}
+                  onError={(e) => { e.currentTarget.src = "/images/placeholder.jpg"; }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{product.name}</h5>
@@ -96,7 +103,7 @@ const Products = () => {
             </div>
           ))
         ) : (
-          <p>No products found</p>
+          <p className="text-center">No products found</p>
         )}
       </div>
     </div>
