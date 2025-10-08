@@ -96,7 +96,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Cardamom Peda (Sugar-Free).",
       "price": 220,
-      "image": "/images/health-conscious_pedas/cardamom_peda_(sugar-free).jpeg",
+      "image": "/images/health-conscious_pedas/cardamom_peda.jpeg",
       "availability": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Kaju Coconut Peda (No Sugar).",
       "price": 240,
-      "image": "/images/health-conscious_pedas/kaju_coconut_peda_(no_sugar).jpeg",
+      "image": "/images/health-conscious_pedas/kaju_coconut_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Health-Conscious Pedas",
       "description": "Delicious health-conscious pedas - Low-Fat Milk Peda.",
       "price": 360,
-      "image": "/images/health-conscious_pedas/low-fat_milk_peda.jpeg",
+      "image": "/images/health-conscious_pedas/low_fat_milk_peda.jpeg",
       "availability": true
     },
     {

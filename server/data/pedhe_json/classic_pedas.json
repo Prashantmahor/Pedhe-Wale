@@ -60,7 +60,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Rose Peda.",
       "price": 340,
-      "image": "/images/classic_pedas/rose_peda.jpeg",
+      "image": "/images/classic_pedas/rose_peda.jpg",
       "availability": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "Classic Pedas",
       "description": "Delicious classic pedas - Saffron Almond Peda.",
       "price": 360,
-      "image": "/images/classic_pedas/saffron_almond_peda.jpeg",
+      "image": "/images/classic_pedas/saffron_almond_peda.jpg",
       "availability": true
     },
     {

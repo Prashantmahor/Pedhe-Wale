@@ -17,6 +17,11 @@ export const saveCart = (cart: CartItem[]) => {
   localStorage.setItem("cart", JSON.stringify(cart));
 };
 
+export const clearCart = () => {
+  localStorage.removeItem("cart");
+  window.dispatchEvent(new Event("cartUpdated"));
+};
+
 export const addToCart = (item: CartItem) => {
   const cart = getCart();
   const existing = cart.find((p) => p.id === item.id);

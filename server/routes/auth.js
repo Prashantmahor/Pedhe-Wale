@@ -2,6 +2,7 @@ import express from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";// mongoose model
+import { authMiddleware } from "../middlewares/Authentication.js";
 const router = express.Router();
 
 // ✅ Signup
@@ -47,6 +48,33 @@ router.post("/login", async (req, res) => {
     res.json({ token, user: { id: user._id, name: user.name, email: user.email } });
   } catch (err) {
     res.status(500).json({ message: err.message });
+  }
+});
+
+  
+// Get profile
+router.get("/profile", authMiddleware, async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).select("-password");
+    res.json(user);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching profile", error });
+  }
+});
+
+// Update profile (phone + address)
+router.put("/profile", authMiddleware, async (req, res) => {
+  try {
+    const { phone, address } = req.body;
+    const user = await User.findByIdAndUpdate(
+      req.user,
+      { phone, address },
+      { new: true }
+    ).select("-password");
+
+    res.json(user);
+  } catch (error) {
+    res.status(500).json({ message: "Error updating profile", error });
   }
 });
 

@@ -1,32 +1,34 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import hero1 from "../assets/hero1.png";
-import hero2 from "../assets/hero2.webp";
+import hero1 from "../assets/hero1.jpg";
+import hero2 from "../assets/hero2.jpg";
 import { BiSolidOffer } from "react-icons/bi";
+import { addToCart } from "../utils/cartUtils";
+const fallbackImg = "/images/placeholder.jpg";
 
 export default function Home() {
   const categories = [
     {
       id: 1,
-      name: "Pedhe",
+      name: "Mix Peda Box",
       link: "/category/pedhe",
       image: "http://localhost:5000/images/products/pedhe.jpeg",
     },
     {
       id: 2,
-      name: "Dry Fruit Sweets",
+      name: "Special Namkeen Mixtures",
       link: "/category/dry-fruit",
       image: "http://localhost:5000/images/products/dry_fruit_sweet.jpeg",
     },
     {
       id: 3,
-      name: "Festival Specials",
+      name: "Festive Gift Pack",
       link: "/category/festival",
       image: "http://localhost:5000/images/products/festive_special.jpeg",
     },
     {
       id: 4,
-      name: "Gift Packs",
+      name: "Family Combo Pack",
       link: "/category/gift-packs",
       image: "http://localhost:5000/images/products/gift_pack.jpeg",
     },
@@ -90,6 +92,24 @@ export default function Home() {
       link: "/menu",
     },
   ];
+
+  const handleAddToCart = (p: {
+    id: number;
+    name: string;
+    price: string;
+    image: string;
+  }) => {
+    addToCart({
+      id: p.id,
+      name: p.name,
+      // bestSellers me price string hai like "₹412", usko number banana hoga
+      price: Number(p.price.replace(/[^0-9]/g, "")),
+      image: p.image ? p.image : fallbackImg,
+      qty: 1,
+    });
+    window.dispatchEvent(new Event("cartUpdated"));
+    alert("Item added to cart");
+  };
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -164,40 +184,37 @@ export default function Home() {
       </section>
 
       {/* Best Sellers */}
-      <section id="products" className="bg-white">
-        <div className="max-w-8xl mx-auto px-4 py-10">
-          <h2 className="text-xl font-semibold mb-4 mt-4">Best Sellers</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {bestSellers.map((p) => (
-              <Link
-                key={p.id}
-                to={p.link}
-                className="text-decoration-none text-reset"
-              >
-                <div className="border rounded-lg p-4 cursor-pointer hover:shadow-lg">
-                  <img
-                    src={p.image}
-                    alt={p.name}
-                    className="w-full h-48 rounded-md bg-gray-200 mb-4 object-cover"
-                  />
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="font-medium">{p.name}</div>
-                      <div className="text-sm text-gray-600">{p.price}</div>
-                    </div>
-                    <button
-                      className="px-3 py-2 border rounded text-sm 
-                bg-yellow-400 text-black hover:bg-yellow-500"
-                    >
-                      Add
-                    </button>
-                  </div>
-                </div>
-              </Link>
-            ))}
+<section id="products" className="bg-white">
+  <div className="max-w-8xl mx-auto px-4 py-10">
+    <h2 className="text-xl font-semibold mb-4 mt-4">Best Sellers</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {bestSellers.map((p) => (
+        <div
+          key={p.id}
+          className="border rounded-lg p-4 cursor-pointer hover:shadow-lg"
+        >
+          <img
+            src={p.image}
+            alt={p.name}
+            className="w-full h-48 rounded-md bg-gray-200 mb-4 object-cover"
+          />
+          <div className="flex items-center justify-between">
+            <div>
+              <div className="font-medium">{p.name}</div>
+              <div className="text-sm text-gray-600">{p.price}</div>
+            </div>
+            <button
+              className="px-3 py-2 border rounded text-sm bg-yellow-400 text-black hover:bg-yellow-500"
+              onClick={() => handleAddToCart(p)}
+            >
+              Add
+            </button>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Why Choose Us / USPs */}
       <section className="max-w-8xl mx-auto px-4 py-10">
@@ -229,7 +246,10 @@ export default function Home() {
       <section className="max-w-8xl mx-auto px-4 py-10">
         <h3 className="text-lg font-semibold mb-4 mt-4">Special Offers</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Link to="/offer/card" className="no-underline text-inherit text-decoration-none text-reset">
+          <Link
+            to="/offer/card"
+            className="no-underline text-inherit text-decoration-none text-reset"
+          >
             <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
               <BiSolidOffer className="offer" />
               <div>
@@ -241,9 +261,12 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link to="/offer/combo" className="no-underline text-inherit text-decoration-none text-reset">
+          <Link
+            to="/offer/combo"
+            className="no-underline text-inherit text-decoration-none text-reset"
+          >
             <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
-             <BiSolidOffer className="offer" />
+              <BiSolidOffer className="offer" />
               <div>
                 <div className="font-bold">Combo Offer</div>
                 <div className="text-sm text-gray-600">
@@ -253,7 +276,10 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link to="/offer/voucher" className="no-underline text-inherit text-decoration-none text-reset">
+          <Link
+            to="/offer/voucher"
+            className="no-underline text-inherit text-decoration-none text-reset"
+          >
             <div className="border rounded-lg p-4 flex items-start gap-3 cursor-pointer hover:shadow-lg">
               <BiSolidOffer className="offer" />
               <div>

@@ -159,8 +159,6 @@
 
 // export default ProductModal;
 
-
-
 // import React, { useState } from "react";
 // import { addToCart } from "../utils/cartUtils";
 
@@ -321,7 +319,6 @@
 
 // export default ProductModal;
 
-
 import React, { useState, useEffect } from "react";
 import { addToCart } from "../utils/cartUtils";
 
@@ -352,7 +349,9 @@ const ProductModal = ({
   const [weights, setWeights] = useState<Weight[]>([]);
   const [selectedWeight, setSelectedWeight] = useState<Weight | null>(null);
   const [mainImg, setMainImg] = useState(
-    product.image ? `http://localhost:5000${product.image}` : "/images/placeholder.jpg"
+    product.image
+      ? `http://localhost:5000${product.image}`
+      : "/images/placeholder.jpg"
   );
 
   // Hardcode default weights dynamically here
@@ -373,7 +372,9 @@ const ProductModal = ({
   const handleAddToCart = () => {
     addToCart({
       id: product.id,
-      name: `${product.name}${selectedWeight ? " - " + selectedWeight.label : ""}`,
+      name: `${product.name}${
+        selectedWeight ? " - " + selectedWeight.label : ""
+      }`,
       price: basePrice * weightMultiplier,
       image: mainImg,
       qty,
@@ -416,7 +417,12 @@ const ProductModal = ({
                     src={`http://localhost:5000${img}`}
                     alt={`thumb-${i}`}
                     className="img-thumbnail"
-                    style={{ height: "80px", width: "80px", objectFit: "cover", cursor: "pointer" }}
+                    style={{
+                      height: "80px",
+                      width: "80px",
+                      objectFit: "cover",
+                      cursor: "pointer",
+                    }}
                     onClick={() => setMainImg(`http://localhost:5000${img}`)}
                   />
                 ))}
@@ -441,7 +447,9 @@ const ProductModal = ({
                   className="form-select w-50"
                   value={selectedWeight?.label}
                   onChange={(e) =>
-                    setSelectedWeight(weights.find((w) => w.label === e.target.value) || null)
+                    setSelectedWeight(
+                      weights.find((w) => w.label === e.target.value) || null
+                    )
                   }
                 >
                   {weights.map((w, i) => (
@@ -472,7 +480,10 @@ const ProductModal = ({
 
             {/* Buttons */}
             <div className="d-flex gap-2">
-              <button className="btn btn-warning flex-grow-1" onClick={handleAddToCart}>
+              <button
+                className="btn btn-warning flex-grow-1"
+                onClick={handleAddToCart}
+              >
                 Add to Cart
               </button>
               <button

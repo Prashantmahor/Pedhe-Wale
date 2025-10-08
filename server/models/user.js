@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema(
       required: true,
       minlength: 6, // minimum 6 character ka password
     },
+    phone: { type: String },     // optional initially
+    address: { type: String },    // optional initially
+    avatar: { type: String },     // optional initially
+    isPhoneVerified: { type: Boolean, default: false }
   },
   { timestamps: true } // automatically createdAt & updatedAt save karega
 );

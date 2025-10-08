@@ -105,7 +105,7 @@
       "category": "Modern Fusion Pedas",
       "description": "Delicious modern fusion pedas - Vanilla Almond Peda.",
       "price": 240,
-      "image": "/images/modern_fusion_pedas/vanilla_almond_peda.jpeg",
+      "image": "/images/modern_fusion_pedas/vanilla_peda.jpeg",
       "availability": true
     },
     {
@@ -132,7 +132,7 @@
       "category": "Modern Fusion Pedas",
       "description": "Delicious modern fusion pedas - Choco-Pista Peda.",
       "price": 300,
-      "image": "/images/modern_fusion_pedas/choco-pista_peda.jpeg",
+      "image": "/images/modern_fusion_pedas/choco_pista_peda.jpeg",
       "availability": true
     },
     {
@@ -159,7 +159,7 @@
       "category": "Modern Fusion Pedas",
       "description": "Delicious modern fusion pedas - Choco-Cashew Peda.",
       "price": 360,
-      "image": "/images/modern_fusion_pedas/choco-cashew_peda.jpeg",
+      "image": "/images/modern_fusion_pedas/choco_cashew_peda.jpeg",
       "availability": true
     },
     {

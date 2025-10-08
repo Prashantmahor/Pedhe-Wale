@@ -7,7 +7,9 @@ import { fileURLToPath } from "url";
 import authRoutes from "./routes/auth.js";
 import connectDB from "./config/db.js";
 import categoryRoutes from "./routes/categories.js";
-import subscriberRoutes from "./routes/subscriber.js"; // 👈 NEW
+import subscriberRoutes from "./routes/subscriber.js"; 
+import otpRoutes from "./routes/otp.js";
+
 
 dotenv.config();
 
@@ -25,11 +27,13 @@ connectDB();
 // ✅ Routes
 app.use("/api", authRoutes);
 app.use("/api/categories", categoryRoutes);
-app.use("/api/subscribe", subscriberRoutes); // 👈 NEW
+app.use("/api/subscribe", subscriberRoutes); 
+app.use("/api/otp", otpRoutes);
 
 // ✅ Static files serve
 app.use("/images", express.static(path.join(__dirname, "public", "images")));
 app.use("/data", express.static(path.join(__dirname, "data", "pedhe_json")));
+app.use("/products", express.static(path.join(__dirname, "data", "products_json")));
 
 // ✅ JSON file paths
 const ordersPath = path.join(__dirname, "data", "past_orders_json");
@@ -84,8 +88,10 @@ app.post("/api/dialogflow", (req, res) => {
   res.json({ fulfillmentText: reply });
 });
 
+
+
 // ✅ Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });

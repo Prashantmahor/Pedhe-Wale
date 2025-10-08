@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BsInstagram, BsFacebook } from "react-icons/bs";
+import { BsInstagram, BsFacebook, BsYoutube, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -29,7 +29,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="py-5 footergap bg-[#212529] text-white ">
+      <footer className="py-5 footergap bg-black shadow-md text-white ">
         <div className="row">
           {/* Categories */}
           <div className="col-6 col-md-2 mb-3">
@@ -150,6 +150,16 @@ const Footer = () => {
             <li className="ms-3">
               <a className="text-white" href="#" aria-label="Facebook">
                 <BsFacebook size={24} color="white" />
+              </a>
+            </li>
+             <li className="ms-3">
+              <a className="text-white" href="#" aria-label="Youtube">
+                <BsYoutube size={24} color="white" />
+              </a>
+            </li>
+             <li className="ms-3">
+              <a className="text-white" href="#" aria-label="Whatsapp">
+                <BsWhatsapp size={24} color="white" />
               </a>
             </li>
           </ul>
